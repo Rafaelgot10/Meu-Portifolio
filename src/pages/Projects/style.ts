@@ -39,7 +39,8 @@ export const StyledProjects = styled.main`
     justify-content: center;
     width: 100%;
     max-width: 450px;
-    height: 500px;
+    min-height: 500px;
+    height: auto;
     border: solid 1px black;
     border-radius: var(--space-defaut);
     padding: var(--space-defaut);

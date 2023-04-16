@@ -60,10 +60,6 @@ export const GlobalStyles = createGlobalStyle`
    position: relative;
   }
 
-
-
-
-
   .routes{
     display: flex;
     flex-direction: column;

@@ -5,10 +5,10 @@ import { useEffect, useState } from "react";
 export function Home() {
   const [count, setCount] = useState(0);
   const [name, setName] = useState("");
-  const boxName = "Desenvolvedor Front-End";
+  const boxName = "Back-End em desenvolvimento.";
 
   useEffect(() => {
-    if (count <= 22) {
+    if (count <= 27) {
       const timer = setInterval(() => {
         setName(name + boxName.charAt(count));
 
@@ -23,24 +23,24 @@ export function Home() {
 
   return (
     <StyledHome>
-      <div className="myImage">
-        <img src={myImage} alt="Imagem do Autor" />
-      </div>
-
       <h1>
         Olá, sou o <span className="name">Rafael Rocha</span>
         <br />
-        <span className="dev">{name}</span>
+        <span>Desenvolvedor Front-End</span>
       </h1>
+      <div className="myImage">
+        <img src={myImage} alt="Imagem do Autor" />
+      </div>
+      <h1 className="dev">{name}</h1>
       <div className="buttons">
         <div>
           <a
             className="CV"
-            href="../../assets/Currículo Rafael Rocha.pdf"
-            download
+            href="https://1drv.ms/b/s!AjTA8TexTwP5lgLVyDn6rjZVoH_z?e=pnnjWM"
+            type="application/jpeg"
+            target="_blank"
           >
-            {" "}
-            Download CV
+            Visualizar CV
           </a>
         </div>
       </div>

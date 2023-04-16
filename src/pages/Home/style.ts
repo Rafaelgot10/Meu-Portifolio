@@ -14,6 +14,10 @@ export const StyledHome = styled.main`
     color: var(--color-primary);
   }
 
+  .dev {
+    font-size: 2rem;
+  }
+
   .dev::after {
     content: "|";
     margin-left: 3px;

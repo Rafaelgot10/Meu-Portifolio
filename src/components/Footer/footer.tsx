@@ -18,7 +18,7 @@ export function Footer() {
 
       <a href="mailto:rafaelgot10@outlook.com" target={"_blank"}>
         {" "}
-        <SiGmail /> Gmail
+        <SiGmail /> Email
       </a>
     </StyledFoother>
   );
