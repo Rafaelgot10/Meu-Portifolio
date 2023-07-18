@@ -12,8 +12,7 @@ export function Header() {
     <StyledHeader nav={nav}>
       <div className="navUp">
         <div className="logo">
-          <img src={logo} alt="Imagem da Tag HTML" />
-          <h1>Portifólio</h1>
+          <h1>Rafael Rocha</h1>
         </div>
         <ul className="navUp__ul">
           <li>

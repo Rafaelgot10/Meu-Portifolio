@@ -29,6 +29,7 @@ export const StyledHome = styled.main`
     display: flex;
     align-items: center;
     flex-direction: column;
+    justify-content: center;
     background-color: var(--color-primary);
     color: white;
     width: 60px;
@@ -37,9 +38,9 @@ export const StyledHome = styled.main`
     border-radius: 50%;
   }
 
-  /* .git > a > svg {
-    color: white;
-  } */
+  .git:hover {
+    background-color: var(--color-primary-hover);
+  }
 
   @keyframes animacaoInicial {
     from {
@@ -88,7 +89,6 @@ export const StyledHome = styled.main`
     text-align: center;
     max-width: 200px;
     border-radius: 20px;
-
     cursor: pointer;
   }
 

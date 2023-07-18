@@ -62,7 +62,6 @@ export const StyledHeader = styled.header`
 
   .navDown > ul > li {
     width: 100%;
-
     text-align: center;
   }
 

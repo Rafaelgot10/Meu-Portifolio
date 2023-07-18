@@ -10,7 +10,6 @@ import postgreSQL from "../../assets/postegreSQL.png";
 import node from "../../assets/node.png";
 import django from "../../assets/django.png";
 import ladder from "../../assets/clp.png";
-// import style from "../../assets/styled.png";
 import ts from "../../assets/typescript.png";
 
 export function Skills() {
@@ -20,7 +19,6 @@ export function Skills() {
       <ul className="skillsList">
         <li className="ability">
           <img src={html} alt="Icone da tecnologia HTML" />
-
           <div className="information">
             <h2>HTML</h2>
             <p className="hidden">
@@ -44,7 +42,6 @@ export function Skills() {
 
         <li className="ability">
           <img src={js} alt="Icone da tecnologia JavaScript" />
-
           <div className="information">
             <h2>JavaScript</h2>
             <p>
@@ -57,7 +54,6 @@ export function Skills() {
 
         <li className="ability">
           <img src={ts} alt="Icone da tecnologia TypeScript" />
-
           <div className="information">
             <h2>TypeScript</h2>
             <p>
@@ -70,7 +66,6 @@ export function Skills() {
 
         <li className="ability">
           <img src={react} alt="Icone da tecnologia React JS" />
-
           <div className="information">
             <h2>React JS</h2>
             <p>
@@ -82,7 +77,6 @@ export function Skills() {
 
         <li className="ability">
           <img src={git} alt="Icone da tecnologia Git" />
-
           <div className="information">
             <h2>Git</h2>
             <p>
@@ -94,7 +88,6 @@ export function Skills() {
 
         <li className="ability">
           <img src={github} alt="Icone da tecnologia Github" />
-
           <div className="information">
             <h2>Github</h2>
             <p>
@@ -106,7 +99,6 @@ export function Skills() {
 
         <li className="ability">
           <img src={python} alt="Icone da tecnologia TypeScript" />
-
           <div className="information">
             <h2>Python</h2>
             <p>
@@ -119,7 +111,6 @@ export function Skills() {
 
         <li className="ability">
           <img src={postgreSQL} alt="Icone da tecnologia TypeScript" />
-
           <div className="information">
             <h2>PostgreSQL</h2>
             <p>
@@ -131,7 +122,6 @@ export function Skills() {
 
         <li className="ability">
           <img src={node} alt="Icone da tecnologia TypeScript" />
-
           <div className="information">
             <h2>Node.js</h2>
             <p>
@@ -144,7 +134,6 @@ export function Skills() {
 
         <li className="ability">
           <img src={django} alt="Icone da tecnologia TypeScript" />
-
           <div className="information">
             <h2>Django</h2>
             <p>
@@ -156,7 +145,6 @@ export function Skills() {
 
         <li className="ability">
           <img src={ladder} alt="Icone da tecnologia TypeScript" />
-
           <div className="information">
             <h2>Linguagem ladder</h2>
             <p>

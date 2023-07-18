@@ -8,15 +8,15 @@ export const GlobalStyles = createGlobalStyle`
     border: none;
     list-style: none;
     text-decoration: none;
-    transition: 1s;
+    transition: 0.5s;
     font-family: 'Tilt Neon', 'Inter', sans-serif;
-    
   }
   
   h1, h2, h3, h4, h5, h6 {
     color: var(--grey-100);
     
   }
+  
   span, p {
     color: var(--grey-400);
   }
@@ -69,22 +69,20 @@ export const GlobalStyles = createGlobalStyle`
     height: 100%;
     width: 100%;
     padding: 100px 20px;
-
   }
 
   a {
     color: var(--grey-100);
   }
 
- svg {
+  svg {
    cursor: pointer;
   }
 
- button {
+  button {
    cursor: pointer;
    background-color: var(--color-primary);
    color: var(--grey-100);
-   
   }
 
   :root {
@@ -95,6 +93,10 @@ export const GlobalStyles = createGlobalStyle`
     --grey-400: #868E96;
     --grey-500: #212529;
     --grey-600:  #000000; 
+
+    --color-whatsapp: #4ACA94;
+    --color-email: #BD3B9B;
+    --color-linkedin: #4E73FF;
 
     --color-primary: #4070f4;
     --color-primary-hover: #2b5fee;

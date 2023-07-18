@@ -2,7 +2,6 @@ import { StyledHome } from "./style";
 import myImage from "../../assets/myImage.jpeg";
 import { useEffect, useState } from "react";
 import { AiOutlineGithub } from "react-icons/ai";
-import { AiFillGitlab } from "react-icons/ai";
 
 export function Home() {
   const [count, setCount] = useState(0);
