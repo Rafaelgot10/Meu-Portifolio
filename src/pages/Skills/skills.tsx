@@ -1,12 +1,17 @@
 import { StyledHabilities } from "./style";
-import css from "../../assets/css.svg";
-import github from "../../assets/github.svg";
-import js from "../../assets/js.svg";
-import react from "../../assets/react.svg";
-import git from "../../assets/git.svg";
-import html from "../../assets/html.svg";
-import style from "../../assets/styled.svg";
-import ts from "../../assets/typescript.svg";
+import css from "../../assets/css.png";
+import github from "../../assets/github.png";
+import js from "../../assets/javascript.png";
+import react from "../../assets/react.png";
+import git from "../../assets/git.png";
+import html from "../../assets/html.png";
+import python from "../../assets/python.png";
+import postgreSQL from "../../assets/postegreSQL.png";
+import node from "../../assets/node.png";
+import django from "../../assets/django.png";
+import ladder from "../../assets/clp.png";
+// import style from "../../assets/styled.png";
+import ts from "../../assets/typescript.png";
 
 export function Skills() {
   return (
@@ -14,9 +19,8 @@ export function Skills() {
       <h1>Habilidades</h1>
       <ul className="skillsList">
         <li className="ability">
-          <div className="icon ">
-            <img src={html} alt="Icone da tecnologia HTML" />
-          </div>
+          <img src={html} alt="Icone da tecnologia HTML" />
+
           <div className="information">
             <h2>HTML</h2>
             <p className="hidden">
@@ -27,9 +31,7 @@ export function Skills() {
         </li>
 
         <li className="ability">
-          <div className="icon skill2">
-            <img src={css} alt="Icone da tecnologia CSS" />
-          </div>
+          <img src={css} alt="Icone da tecnologia CSS" />
           <div className="information">
             <h2>CSS</h2>
             <p>
@@ -41,22 +43,34 @@ export function Skills() {
         </li>
 
         <li className="ability">
-          <div className="icon skill3">
-            <img src={js} alt="Icone da tecnologia JavaScript" />
-          </div>
+          <img src={js} alt="Icone da tecnologia JavaScript" />
+
           <div className="information">
             <h2>JavaScript</h2>
             <p>
-              O JavaScript é uma linguagem de programação. Juntamente com HTML e
-              CSS, é uma das três principais tecnologias da web
+              JavaScript é uma linguagem de programação interpretada
+              estruturada, de script em alto nível com tipagem dinâmica fraca e
+              multiparadigma.
             </p>
           </div>
         </li>
 
         <li className="ability">
-          <div className="icon skill4">
-            <img src={react} alt="Icone da tecnologia React JS" />
+          <img src={ts} alt="Icone da tecnologia TypeScript" />
+
+          <div className="information">
+            <h2>TypeScript</h2>
+            <p>
+              O TypeScript é uma linguagem de programação de código aberto
+              desenvolvida pela Microsoft. É um superconjunto sintático estrito
+              de JavaScript e adiciona tipagem estática opcional à linguagem.
+            </p>
           </div>
+        </li>
+
+        <li className="ability">
+          <img src={react} alt="Icone da tecnologia React JS" />
+
           <div className="information">
             <h2>React JS</h2>
             <p>
@@ -67,9 +81,8 @@ export function Skills() {
         </li>
 
         <li className="ability">
-          <div className="icon skill5">
-            <img src={git} alt="Icone da tecnologia Git" />
-          </div>
+          <img src={git} alt="Icone da tecnologia Git" />
+
           <div className="information">
             <h2>Git</h2>
             <p>
@@ -80,9 +93,8 @@ export function Skills() {
         </li>
 
         <li className="ability">
-          <div className="icon skill6">
-            <img src={github} alt="Icone da tecnologia Github" />
-          </div>
+          <img src={github} alt="Icone da tecnologia Github" />
+
           <div className="information">
             <h2>Github</h2>
             <p>
@@ -93,29 +105,63 @@ export function Skills() {
         </li>
 
         <li className="ability">
-          <div className="icon skill7">
-            <img src={style} alt="Icone da tecnologia Styled-Components" />
-          </div>
+          <img src={python} alt="Icone da tecnologia TypeScript" />
+
           <div className="information">
-            <h2>Styles-Components</h2>
+            <h2>Python</h2>
             <p>
-              O Styled-Components é uma biblioteca JavaScript que utiliza o
-              conceito de CSS-in-JS, ou seja, que nos permite escrever CSS
-              dentro do JavaScript
+              Python é uma linguagem de programação de alto nível, interpretada
+              de script, imperativa, orientada a objetos, funcional, de tipagem
+              dinâmica e forte.
             </p>
           </div>
         </li>
 
         <li className="ability">
-          <div className="icon skill8">
-            <img src={ts} alt="Icone da tecnologia TypeScript" />
-          </div>
+          <img src={postgreSQL} alt="Icone da tecnologia TypeScript" />
+
           <div className="information">
-            <h2>TypeScript</h2>
+            <h2>PostgreSQL</h2>
             <p>
-              O TypeScript é uma linguagem de programação de código aberto
-              desenvolvida pela Microsoft. É um superconjunto sintático estrito
-              de JavaScript e adiciona tipagem estática opcional à linguagem.
+              PostgreSQL é um sistema gerenciador de banco de dados objeto
+              relacional, desenvolvido como projeto de código aberto.
+            </p>
+          </div>
+        </li>
+
+        <li className="ability">
+          <img src={node} alt="Icone da tecnologia TypeScript" />
+
+          <div className="information">
+            <h2>Node.js</h2>
+            <p>
+              O Node.js é um ambiente de execução do código JavaScript do lado
+              servidor (server side), que na prática se reflete na possibilidade
+              de criar aplicações sem a necessidade do navegador.
+            </p>
+          </div>
+        </li>
+
+        <li className="ability">
+          <img src={django} alt="Icone da tecnologia TypeScript" />
+
+          <div className="information">
+            <h2>Django</h2>
+            <p>
+              Django é um framework para desenvolvimento rápido para web,
+              escrito em Python, que utiliza o padrão model-template-view.
+            </p>
+          </div>
+        </li>
+
+        <li className="ability">
+          <img src={ladder} alt="Icone da tecnologia TypeScript" />
+
+          <div className="information">
+            <h2>Linguagem ladder</h2>
+            <p>
+              A linguagem Ladder foi originalmente desenvolvida para construir
+              circuitos de relés, utilizados em processos industriais.
             </p>
           </div>
         </li>

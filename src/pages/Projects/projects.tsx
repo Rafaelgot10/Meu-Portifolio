@@ -4,6 +4,7 @@ import nukenzie from "../../assets/nukenzie.jpeg";
 import kenzieHub from "../../assets/kenziehub.jpeg";
 import kenzieBurguer from "../../assets/KenzieBurguer.jpeg";
 import petShop from "../../assets/petShop.jpeg";
+
 export function Projects() {
   return (
     <StyledProjects>
@@ -36,7 +37,7 @@ export function Projects() {
             <h2>Nu Kenzie</h2>
 
             <p>
-              O primeiro projeto utilizando React Js confesso que tive
+              O primeiro projeto utilizando React.Js confesso que tive
               dificuldades com as diferenças do react para o javascript vanilla
               mas logo depois que superei isso o projeto se desenvolveu bem
             </p>
@@ -73,10 +74,10 @@ export function Projects() {
             <h2>KenzieHub</h2>
 
             <p>
-              Com a proposta de um protótipo de portifólio, foi bem divertido
-              desenvolver este projeto juntamente com uma API, o que me
-              possibilitou criar um ambiente de hospedagem de portifólios com
-              cadastro e login.
+              Com a proposta de um sistema hospedagem para portifólios, foi bem
+              divertido desenvolver este projeto juntamente com uma API, o que
+              me possibilitou criar um ambiente para portifólios com cadastro e
+              login.
             </p>
           </div>
         </li>

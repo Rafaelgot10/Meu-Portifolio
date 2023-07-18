@@ -25,6 +25,22 @@ export const StyledHome = styled.main`
     animation: pisca 0.7s infinite;
   }
 
+  .git {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--color-primary);
+    color: white;
+    width: 60px;
+    height: 60px;
+    padding: 15px;
+    border-radius: 50%;
+  }
+
+  /* .git > a > svg {
+    color: white;
+  } */
+
   @keyframes animacaoInicial {
     from {
       opacity: 0;

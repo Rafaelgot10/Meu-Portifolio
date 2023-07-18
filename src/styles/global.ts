@@ -10,8 +10,15 @@ export const GlobalStyles = createGlobalStyle`
     text-decoration: none;
     transition: 1s;
     font-family: 'Tilt Neon', 'Inter', sans-serif;
-    color: var(--grey-600);
-   
+    
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: var(--grey-100);
+    
+  }
+  span, p {
+    color: var(--grey-400);
   }
 
   @keyframes animacaoInicial {
@@ -25,17 +32,13 @@ export const GlobalStyles = createGlobalStyle`
     }
   }
 
-
-
-
   html{
-  min-height: 100vh;
+    min-height: 100vh;
     width: 100%;
   }
   
   body{
-   
-    background-color: var(--grey-100);
+    background-color: var(--grey-500);
     min-height: 100vh;
     width: 100%;
   }
@@ -45,7 +48,6 @@ export const GlobalStyles = createGlobalStyle`
     flex-direction: column;
     align-items: center;
     min-height: 100vh;
-  
     width: 100%;
   }
 
@@ -70,48 +72,31 @@ export const GlobalStyles = createGlobalStyle`
 
   }
 
-a{
-  color: var(--grey-100);
-}
+  a {
+    color: var(--grey-100);
+  }
 
  svg {
    cursor: pointer;
   }
 
- button{
+ button {
    cursor: pointer;
    background-color: var(--color-primary);
    color: var(--grey-100);
    
   }
 
-:root {
---space-defaut:20px;
---grey-100:  #EEEEEE;
---grey-200: #CCCCCC;
---grey-300: #999999;
---grey-400: #666666;
---grey-500: #333333;
---grey-600:  #000000; 
+  :root {
+    --space-defaut:20px;
+    --grey-100:  #EEEEEE;
+    --grey-200: #F8F9FA;
+    --grey-300: #E9ECEF;
+    --grey-400: #868E96;
+    --grey-500: #212529;
+    --grey-600:  #000000; 
 
---color-primary: #4070f4;
-
---color-primary-hover: #2b5fee;
-
-
-    /* --color-primary: #fff2ea;
-    --color-secondary: #ff9b00;
-    --color-assistant: #adce53;
-    --color-tertiary-transparent:#e8f6fd;
-    --color-secondary-hover : #f57c00;
-
-    --negative: #e60000;
-    --negative-hover:#e63738;
-    --warning: #ffcd07;
-    --sucess: #168821;
-    --information: #155bcb;
-
-    */
-
+    --color-primary: #4070f4;
+    --color-primary-hover: #2b5fee;
   }
 `;

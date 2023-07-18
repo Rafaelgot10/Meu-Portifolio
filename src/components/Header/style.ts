@@ -8,11 +8,11 @@ export const StyledHeader = styled.header`
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: fixed;
   width: 100%;
   padding: 16px 32px;
-  position: absolute;
   background: rgba(196, 196, 196, 0.11);
-  border-bottom: solid 1px var(--grey-200);
+  border-bottom: solid 1px var(--grey-600);
   backdrop-filter: blur(10px);
   z-index: 10;
 

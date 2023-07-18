@@ -40,6 +40,14 @@ export function Header() {
               </Link>
             </Button>
           </li>
+          <li>
+            <Button className="buttons" color="error" variant="contained">
+              <Link onClick={() => setNav(false)} to="/Contact">
+                {" "}
+                Contato{" "}
+              </Link>
+            </Button>
+          </li>
         </ul>
         <MenuIcon className="menuIcon" onClick={() => setNav(!nav)} />
       </div>
@@ -67,6 +75,14 @@ export function Header() {
               <Link onClick={() => setNav(false)} to="/Skills">
                 {" "}
                 Habilidades{" "}
+              </Link>
+            </Button>
+          </li>
+          <li>
+            <Button className="buttons" color="error" variant="contained">
+              <Link onClick={() => setNav(false)} to="/Contact">
+                {" "}
+                Contato{" "}
               </Link>
             </Button>
           </li>

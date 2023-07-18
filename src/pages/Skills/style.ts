@@ -45,20 +45,11 @@ export const StyledHabilities = styled.main`
     border-radius: var(--space-defaut);
   }
 
-  .icon {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: var(--space-defaut);
+  img {
     width: 100px;
     height: 100px;
-    border-radius: var(--space-defaut);
-    background-color: var(--grey-100);
-    background-repeat: no-repeat;
-    background-position: center;
-    transition: ease 0.3s;
   }
+
   .ability:hover {
     transform: scale(1.1);
   }
