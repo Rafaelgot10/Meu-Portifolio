@@ -6,7 +6,7 @@ export function Footer() {
     <StyledFoother>
       <div>
         <img src={myImage} alt="Imagem do Autor" />
-        <span>Obrigado por ter vindo </span>
+        <span>Obrigado por ter vindo! </span>
       </div>
       <div>
         <a href="https://github.com/Rafaelgot10/Meu-Portifolio" target="_blank">

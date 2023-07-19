@@ -37,9 +37,9 @@ export function Projects() {
             <h2>Nu Kenzie</h2>
 
             <p>
-              O primeiro projeto utilizando React.Js confesso que tive
-              dificuldades com as diferenças do react para o javascript vanilla
-              mas logo depois que superei isso o projeto se desenvolveu bem
+              No primeiro projeto utilizando React.Js confesso que tive
+              dificuldades com as diferenças do React para o Javascript vanilla,
+              mas logo depois que superei isso o projeto se desenvolveu bem.
             </p>
           </div>
         </li>
@@ -74,10 +74,10 @@ export function Projects() {
             <h2>KenzieHub</h2>
 
             <p>
-              Com a proposta de um sistema hospedagem para portifólios, foi bem
-              divertido desenvolver este projeto juntamente com uma API, o que
-              me possibilitou criar um ambiente para portifólios com cadastro e
-              login.
+              O projeto tinha uma proposta de um sistema de hospedagem para
+              portifólios, que foi bem divertido de desenvolver juntamente com
+              uma API, o que me possibilitou criar um ambiente para portifólios
+              com cadastro e login.
             </p>
           </div>
         </li>
@@ -112,10 +112,11 @@ export function Projects() {
             <h2>Kenzie Burguer</h2>
 
             <p>
-              Minha primeira aplicação em TypeScript. Foi um verdadeiro desafio
-              já que não sabia nada sobre tipar os componentes e variaveis no
-              react, porém após o desespero passar eu me acostumei com ele e com
-              a sua absurda capacidade de te impedir de cometer erros.
+              Minha primeira aplicação em TypeScript foi um verdadeiro desafio
+              já que não sabia nada sobre tipar os componentes e as variáveis no
+              React, porém após o choque inicial, consegui me habituar ao
+              framework, tendo constatado sua grande capacidade de impedir a
+              ocorrência de erros.
             </p>
           </div>
         </li>
@@ -147,10 +148,10 @@ export function Projects() {
             <h2>KNZ Pet-Shop</h2>
 
             <p>
-              Um projeto em grupo com ótimos devs juntamente com a proposta de
-              desenvolver o protótipo de um e-commerce voltado para pets. Foi
-              uma ótima experiência com muita troca de informações e
-              conhecimentos
+              Um projeto desenvolvido com ótimos devs, tendo como proposta o
+              desenvolvimento de um protótipo de um e-commerce voltado para
+              pets, foi uma ótima experiência com muitas trocas de informação e
+              feedback.
             </p>
           </div>
         </li>

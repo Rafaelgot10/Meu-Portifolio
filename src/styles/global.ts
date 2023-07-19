@@ -10,6 +10,7 @@ export const GlobalStyles = createGlobalStyle`
     text-decoration: none;
     transition: 0.5s;
     font-family: 'Tilt Neon', 'Inter', sans-serif;
+    line-height: 150%;
   }
   
   h1, h2, h3, h4, h5, h6 {

@@ -23,7 +23,7 @@ export function Skills() {
             <h2>HTML</h2>
             <p className="hidden">
               O HTML é uma linguagem de marcação de texto utilizada na
-              construção de páginas na web
+              construção de páginas na web.
             </p>
           </div>
         </li>
@@ -35,7 +35,7 @@ export function Skills() {
             <p>
               O CSS é um mecanismo para adicionar estilos a uma página web,
               aplicado diretamente nas tags HTML ou ficar contido dentro das
-              tags
+              tags.
             </p>
           </div>
         </li>
@@ -70,7 +70,7 @@ export function Skills() {
             <h2>React JS</h2>
             <p>
               O React é uma biblioteca JavaScript de código aberto com foco em
-              criar interfaces de usuário em páginas web
+              criar interfaces de usuário em páginas web.
             </p>
           </div>
         </li>
@@ -81,7 +81,7 @@ export function Skills() {
             <h2>Git</h2>
             <p>
               O Git é um sistema de versionamento de projeto usado para o
-              auxilio e acompanhamento do projeto
+              auxilio e acompanhamento do projeto.
             </p>
           </div>
         </li>
@@ -126,8 +126,8 @@ export function Skills() {
             <h2>Node.js</h2>
             <p>
               O Node.js é um ambiente de execução do código JavaScript do lado
-              servidor (server side), que na prática se reflete na possibilidade
-              de criar aplicações sem a necessidade do navegador.
+              servidor (server side), que se reflete na possibilidade de criar
+              aplicações localmente.
             </p>
           </div>
         </li>

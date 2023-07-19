@@ -22,6 +22,12 @@ export const StyledProjects = styled.main`
     }
   }
 
+  .informations {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
   .projectList {
     display: flex;
     flex-direction: row;
@@ -39,7 +45,7 @@ export const StyledProjects = styled.main`
     justify-content: center;
     width: 100%;
     max-width: 450px;
-    min-height: 500px;
+    min-height: 550px;
     height: auto;
     border: solid 1px black;
     border-radius: var(--space-defaut);

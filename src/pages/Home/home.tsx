@@ -6,10 +6,10 @@ import { AiOutlineGithub } from "react-icons/ai";
 export function Home() {
   const [count, setCount] = useState(0);
   const [name, setName] = useState("");
-  const boxName = "Desenvolvedor Web FullStack.";
+  const boxName = "Desenvolvedor Web FullStack";
 
   useEffect(() => {
-    if (count <= 27) {
+    if (count <= 26) {
       const timer = setInterval(() => {
         setName(name + boxName.charAt(count));
 
@@ -56,15 +56,15 @@ export function Home() {
       <div className="about">
         <h2>Sobre mim</h2>
         <p>
-          Iniciando na área de programação Web com conhecimento nas Tecnologias
-          font-end (Typescript| React.js | CSS), e back-end (Node.js, python,
-          django)e também na área de automação industrial adquirindo uma boa
-          comunicação, experiência de trabalho em equipe, e proatividade. Sendo
+          Iniciando na área de programação Web com conhecimento nas tecnologias
+          Front-end (Typescript | React.js | CSS) e Back-end (Node.js | Python |
+          Django), bem como na área de automação industrial, adquirindo uma boa
+          comunicação, experiência de trabalho em equipe e proatividade. Sendo
           uma pessoa que gosta de estar sempre aprendendo para poder evoluir,
           antenado nas tecnologias do mercado. Atualmente estudo na Kenzie
           Academy Brasil onde desenvolvo projetos semanalmente que abrangem
-          desenvolvimento de interfaces responsivas utilizando React.js e
-          vercionando os mesmos com Git e GitHub..
+          desenvolvimento de interfaces responsivas, utilizando React.js e
+          versionando os mesmos com Git e GitHub.
         </p>
       </div>
     </StyledHome>
