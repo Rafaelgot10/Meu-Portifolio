@@ -1,15 +1,15 @@
 import styled from "styled-components";
 
-export const StyledProjects = styled.main`
+export const StyledProjects = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  animation-name: animacaoInicial;
   animation-duration: 1s;
   padding: var(--space-defaut);
   width: 100%;
   gap: var(--space-defaut);
+  animation-name: animacaoInicial;
 
   @keyframes animacaoInicial {
     from {

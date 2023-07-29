@@ -14,6 +14,7 @@ export function Header() {
         <div className="logo">
           <h1>Rafael Rocha</h1>
         </div>
+
         <ul className="navUp__ul">
           <li>
             <Button className="buttons" color="error" variant="contained">
@@ -48,6 +49,7 @@ export function Header() {
             </Button>
           </li>
         </ul>
+
         <MenuIcon className="menuIcon" onClick={() => setNav(!nav)} />
       </div>
 
