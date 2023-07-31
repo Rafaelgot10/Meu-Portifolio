@@ -25,7 +25,7 @@ export function Projects() {
               <Button className="buttons" variant="contained">
                 <a
                   target={"_blank"}
-                  href="https://github.com/Kenzie-Academy-Brasil-Developers/react-entrega-s1-template-nu-kenzie_Rafaelgot10"
+                  href="https://github.com/Rafaelgot10/Nu-kenzie"
                 >
                   Repositório
                 </a>
@@ -62,7 +62,7 @@ export function Projects() {
               <Button className="buttons" variant="contained">
                 <a
                   target={"_blank"}
-                  href="https://github.com/Kenzie-Academy-Brasil-Developers/react-entrega-kenzie-hub__Rafaelgot10"
+                  href="https://github.com/Rafaelgot10/Henzie-Hub"
                 >
                   Repositório
                 </a>
@@ -100,7 +100,7 @@ export function Projects() {
               <Button className="buttons" variant="contained">
                 <a
                   target={"_blank"}
-                  href="https://github.com/Kenzie-Academy-Brasil-Developers/kenzie-burguer-v2-template_Rafaelgot10"
+                  href="https://github.com/Rafaelgot10/Kenzie-Burguer"
                 >
                   Repositório
                 </a>
