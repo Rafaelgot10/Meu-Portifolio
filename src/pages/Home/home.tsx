@@ -36,7 +36,7 @@ export function Home() {
       <div className="buttons">
         <a
           className="CV"
-          href="https://1drv.ms/b/s!AjTA8TexTwP5lmRi_tM5vCrV-4Ns?e=s9gfqF"
+          href="https://1drv.ms/w/s!AjTA8TexTwP5lmIpeoaD4tv6gLug?e=GE5Fpn"
           type="application/jpeg"
           target="_blank"
         >
